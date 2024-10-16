@@ -1,0 +1,35 @@
+.in{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border: 2px solid black;
+    background-image:url(image.jpg) ;
+}
+form h1{
+    color: white;
+}
+
+form input{
+    height: 20px;
+    width: 200px;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+form button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
